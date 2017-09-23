@@ -2,8 +2,6 @@
 require_once "class.db.php";
 class User 
 {
-
-
     public function Login($login,$pass) 
     {
         $db = new DB();
