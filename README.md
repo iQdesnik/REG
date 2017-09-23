@@ -23,7 +23,7 @@ Application Files:
 	    Example : $arr=$db->select("table","where id=1","0");
 		          echo $arr['username'];
 				  
-	- ChoseCountry : takes a country list from database for using in <select> form
+- ChoseCountry : takes a country list from database for using in <select> form
 	
 	- insert : makes an insert query to database, works like a select()
 	    $table(name of the table in database)
@@ -40,14 +40,14 @@ Application Files:
 	          if login&password - ok - creates SESSION and returns 0; 
 			  if login&password - wrong - returns message of the error;
 			  
-	- RegUser : takes user data from reg.php and cheking it
+- RegUser : takes user data from reg.php and cheking it
 	          if all is ok makes an insert query to database and using login() for authorize new user and returns 0,
 			  if got an error - returns message of the error;
 			  
-	- UsersOnly : by using this method we can make a protected page only for authorized users
+- UsersOnly : by using this method we can make a protected page only for authorized users
 	              returns error and stops executing script.
 				  
-	- Logout : destroys SESSION data .
+- Logout : destroys SESSION data .
 	
 3. index.php : Auth form, takes login and password, using Login() 
                if login and password - ok - redirects user to a protected page, 
