@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+body {
+    background: #009999;
+}
+
+.error{
+    text-align: center;
+    font-size: 25px;
+    color: #FF1300;
+}
+
+hr{
+    background-color: #fff;
+    border-top: 2px dashed #8c8b8b;
+}
+h1{
+    color: #555;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.wrapper {
+    width: 500px;
+    margin: 100px auto;
+    background: #f1f1f1;
+    padding: 30px;
+    color: 	#000000;
+}
+
+.input {
+    width: 350px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    color: #555;
+    background: #f9f9f9;
+    font-size: 17px;
+}
+
+.input-reg {
+    width: 470px;
+    height: 40px;
+    padding: 0 20px;
+    margin: 20px;
+    color: #555;
+    background: #f9f9f9;
+    font-size: 17px;
+}
+
+.openlist {
+    width: 80px;
+    height: 40px;
+    font-size: 17px;
+}
+
+.opencountrylist {
+    width: 160px;
+    height: 40px;
+    font-size: 17px;
+}
+
+
+
+.submit {
+    width: 300px;
+    height: 50px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight:bold;
+    background: #9FEE00;
+    
+}
