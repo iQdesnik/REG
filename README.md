@@ -56,8 +56,8 @@ Application Files:
 			   
 4. reg.php : Registration form , takes user data from forms, using RegUser()
              if all data is ok - creates a new user and redirects him to a protected page
-			 if got an error displays it on the screen
-			 Button "SEND" active only if user put a checkbox "I agree with site rules"
+		if got an error displays it on the screen
+		Button "SEND" active only if user put a checkbox "I agree with site rules"
 			 
 5. protected.php - Page only for authorized users, shows login, email and logout link.
 		          
