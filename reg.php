@@ -36,7 +36,7 @@ if(isset($_POST['submit-form']))
 <body>
     <div class="wrapper">
         <?php 
-        if($login!=='0') echo '<h1><font color=red>'.$adduser.'<font/><h1><br/>';
+        if($adduser!=='0') echo '<h1><font color=red>'.$adduser.'<font/><h1><br/>';
         ?>
         <form action="reg.php" class="login-form" method="post">
             <h1>E-Mail:</h1> 
